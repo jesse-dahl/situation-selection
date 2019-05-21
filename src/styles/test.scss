@@ -1,0 +1,26 @@
+body {
+  overflow: scroll;
+}
+
+.MainVideos {
+  padding: 0 15px;
+}
+
+.IndividualVideo {
+  margin: 10px;
+  padding: 10px;
+  border: 2px white solid;
+  display: inline-flex;
+  height: 150px;
+  width: 200px;
+
+  .VideoDescription {
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.Videos {
+  display: contents;
+}
+

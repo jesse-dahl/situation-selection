@@ -1,0 +1,22 @@
+body {
+  padding: 0 15px;
+}
+
+.ArrowImg {
+  width: 60px;
+  height: auto;
+  border: 3px white solid;
+  border-radius: 50%;
+  padding: 6px;
+  position: relative;
+  left: 35em;
+  bottom: -8em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+p {
+  padding: 10px 0;
+}
